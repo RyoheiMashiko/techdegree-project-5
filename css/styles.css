@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 90%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#search-box {
+  display: block;
+  margin: auto;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  border-radius: 5%;
+  height: 2rem;
+  width: 300px;
+  border-color: lightgrey; 
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 280px;
+  height: 300px;
+  padding: 40px;
+}
+
+@media(max-width: 768px) {
+  img {
+    width: 300px;
+    height: auto;
+    padding: 30px;
+  }
+}
+
+@media(max-width: 320px) {
+  #search-box {
+    width: 200px;
+  }
+}
+
