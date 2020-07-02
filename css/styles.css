@@ -28,10 +28,8 @@ h1 {
   justify-content: center;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-  padding: 40px;
+.photo {
+  margin: 30px;
 }
 
 @media(max-width: 320px) {
@@ -44,10 +42,10 @@ img {
     margin-top: 10%;
     margin-bottom:10%;
   }
-
-  img {
-    padding-top: 20px;
-  }
-
 }
 
+@media(max-width: 768px){
+    img {
+      margin: 50px;
+  }
+}
