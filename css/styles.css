@@ -43,12 +43,16 @@ img {
   h1 {
    font-size: 1.5rem;
   }
+
   #search-box {
     width: 200px;
-    height: 1rem;
     margin-top: 10%;
-    margin-bottom:0;
-    font-size: 1rem;
+    margin-bottom:10%;
   }
+
+  img {
+    padding-top: 20px;
+  }
+
 }
 
