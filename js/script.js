@@ -1,5 +1,5 @@
 lightbox.option({
-  // showImageNumberLabel: false,
-  // wrapAround: true,
-  // disableScrolling: true
+  showImageNumberLabel: false,
+  wrapAround: true,
+  disableScrolling: true
 })
