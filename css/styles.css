@@ -45,7 +45,7 @@ h1 {
 }
 
 @media(max-width: 768px){
-    img {
+    /* img {
       margin: 50px;
-  }
+  } */
 }
