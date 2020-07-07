@@ -10,8 +10,13 @@ function inputValue() {
   let keyWord = document.getElementById("search").value.toUpperCase();
   console.log(keyWord);
 }
-  let caption = document.getElementsByTagName("a")[0].getAttribute("data-title");
+  let i;
+  for(i = 0; i < 12; i++){
+  let caption = document.getElementsByTagName("a")[i].getAttribute("data-title");
   console.log(caption);
+}
+  // let caption = document.getElementsByTagName("a")[1].getAttribute("data-title");
+  // console.log(caption);
 
 
 
