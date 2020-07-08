@@ -1,9 +1,12 @@
+//Change option of lightbox 
+
 lightbox.option({
   showImageNumberLabel: false,
   wrapAround: true,
   disableScrolling: true
-})
+});
 
+//Add function of serch filter
 document.getElementById("search").addEventListener("keyup", inputValue);
 
 function inputValue() {
